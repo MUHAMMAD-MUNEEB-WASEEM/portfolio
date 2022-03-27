@@ -5,7 +5,7 @@ backend-portfolio/node_modules
 frontend-portfolio/node_modules
 /.pnp
 .pnp.js
-
+../gitignore
 # testing
 /coverage
 
