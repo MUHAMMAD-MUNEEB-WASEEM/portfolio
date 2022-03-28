@@ -3,7 +3,9 @@ import './About.scss'
 import { motion } from 'framer-motion'
 import {images} from '../../constants/index'
 
+
 import {urlFor, client} from '../../sanity';
+import AppWrap from '../../Wrapper/AppWrap'
 
 function About() {
   
@@ -52,4 +54,4 @@ function About() {
   )
 }
 
-export default About
+export default AppWrap(About, 'about')
