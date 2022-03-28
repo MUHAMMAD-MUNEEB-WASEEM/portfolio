@@ -7,6 +7,7 @@ import { motion } from 'framer-motion';
 import AppWrap from '../../Wrapper/AppWrap';
 import { urlFor, client } from '../../sanity';
 import './Work.scss';
+import MotionWrap from '../../Wrapper/MotionWrap';
 function Work() {
 
   const [activeFilter, setActiveFilter] = useState('All')
@@ -126,4 +127,9 @@ function Work() {
   )
 }
 
-export default AppWrap(Work, 'work')
+export default AppWrap(
+  MotionWrap(Work, 'app__works'), 
+  'work',
+  'app__primarybg'
+
+)

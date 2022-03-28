@@ -6,6 +6,7 @@ import {images} from '../../constants/index'
 
 import {urlFor, client} from '../../sanity';
 import AppWrap from '../../Wrapper/AppWrap'
+import MotionWrap from '../../Wrapper/MotionWrap';
 
 function About() {
   
@@ -54,4 +55,9 @@ function About() {
   )
 }
 
-export default AppWrap(About, 'about')
+export default AppWrap(
+  MotionWrap(About, 'app__about'), 
+  'about',
+  'app__whitebg'
+
+)
