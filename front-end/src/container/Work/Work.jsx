@@ -50,7 +50,7 @@ function Work() {
       </h2>
 
       <div className='app__work-filter'>
-          {['UI/UX', 'Web App', 'Mobile App', 'React.Js', 'All'].map((item, index)=>(
+          {['All', 'Electrical', 'React.js', 'Next.js', 'Gatsby', 'WordPress', 'AWS'].map((item, index)=>(
             <div 
               key={index}
               onClick={()=> handleWorkFilter(item)}
@@ -68,9 +68,10 @@ function Work() {
       >
         {filterWork.map((work,index)=>(
           <div 
-            key={index}
+            key={index + 5}
             className='app__work-item app__flex'
           >
+            {console.log(work)}
             
             <div
               className='app__work-img app__flex'
