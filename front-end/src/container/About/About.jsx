@@ -32,7 +32,7 @@ function About() {
 
   return (
     <>
-      <h2 className='head-text'>I know That <span>Good Apps</span><br /> means <span>Good Business</span>
+      <h2 className='head-text'>These are the <span>Areas</span><br /> to which <span>I belong</span>
       </h2>
 
       <div className='app__profiles'>

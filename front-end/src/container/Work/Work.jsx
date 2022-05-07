@@ -46,7 +46,7 @@ function Work() {
 
   return (
     <>
-      <h2 className='head-text'>My Creative <span>Portfolio</span><br /> Section <span>Good Business</span>
+      <h2 className='head-text'>Reflection of <span>My Creative</span><br /> and <span>Diversed Portfolio</span>
       </h2>
 
       <div className='app__work-filter'>
